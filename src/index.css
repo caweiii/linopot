@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  
+  --color-primary-purple: #3C236D;
+  --color-secondary-green: #295A31;
+  --color-brand-bg: #F8F9FC;
+  --color-brand-card: #FFFFFF;
+  --color-error-red: #BA1A1A;
+}
+
+/* Custom animation for fading/entering screens */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+body {
+  background-color: #F8F9FC;
+  color: #191C1E;
+}
+
+

@@ -1,0 +1,6 @@
+{
+  "name": "Linopot Vendor",
+  "description": "Smart forecasting and portion planning app for Malaysian micro-entrepreneurs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
